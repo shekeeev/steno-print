@@ -1,0 +1,209 @@
+.footer {
+    background-color: #F465651A;
+    height: 434px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid var(--sep2, #D2D2D9);
+    border-bottom: 1px solid var(--sep2, #D2D2D9);
+}
+
+.div {
+    width: 220px;
+    height: 320px;
+    margin-top: 60px;
+}
+
+.div h2 {
+    color: #192040;
+    width: 149px;
+    /* h6 */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 23.4px */
+    margin-bottom: 30px;
+}
+
+.div p {
+    color: #828299;
+
+    /* p */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    margin-bottom: 10px;
+}
+
+.secondDiv {
+    margin-top: 115px;
+    width: 220px;
+    margin-left: 75px;
+}
+
+.secondDiv p {
+    color: #828299;
+
+    /* p */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.threeDiv {
+    margin-top: 60px;
+    margin-left: 75px;
+}
+
+.threeDiv h2 {
+    color: #192040;
+
+    /* h6 */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 23.4px */
+    margin-bottom: 30px;
+}
+
+.threeDiv p {
+    width: 300px;
+    color: #828299;
+
+    /* p */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    margin-bottom: 10px;
+}
+
+
+
+
+.fourDiv {
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.fourDiv p {
+    color: #192040;
+
+    /* h6 */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 23.4px */
+    margin-bottom: 30px;
+}
+
+
+.fiveDiv {
+    margin-left: 120px;
+}
+
+.phoneW {
+    margin-bottom: 30px;
+}
+
+.phone {
+    color: #828299;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 16.8px */
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.whatsapp {
+    color: #192040;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 28.6px */
+
+}
+
+.phoneE {
+    margin-bottom: 30px;
+}
+
+.phoneE p {
+    color: #828299;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 16.8px */
+    margin-bottom: 10px;
+}
+
+.phoneE a {
+    color: #192040;
+
+    /* h6 */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 23.4px */
+}
+
+.last {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.last h4 {
+    color: #828299;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 16.8px */
+    margin-left: 240px;
+}
+
+.last p {
+    color: #828299;
+    text-align: right;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 16.8px */
+    margin-left: 1087px;
+    margin-right: 10px;
+}
