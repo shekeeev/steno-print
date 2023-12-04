@@ -36,9 +36,6 @@ const Main = () => {
                 <Route path='/portfolio' element={<Portfolio />} />
             </Routes>
 
-
-
-
         </main >
     );
 };
