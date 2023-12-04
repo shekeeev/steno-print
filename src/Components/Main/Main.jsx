@@ -42,7 +42,6 @@ const Main = () => {
             {/* <Contacs /> */}
 
 
-
         </main >
     );
 };
