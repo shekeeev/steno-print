@@ -1,0 +1,45 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+/* Кнопки выбора видов обоев */
+.wallpapersTypes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43%;
+}
+
+.wallpapersTypes button {
+    display: flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid #EDEDF2;
+    background: #FFFEFC;
+    transition: 0.2s;
+
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #828299;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+.wallpapersTypes button:active {
+    background: var(--main, #FF2E51);
+    color: #FFF;
+}
+
+/* Виды обоев */
+
+.images .wallpapers:hover {
+    background: #EDEEF299 , cover;
+}
+
+
+.counts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
