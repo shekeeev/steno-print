@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Header = () => {
     return (
         <header className={h.header} >
-            <Link to={'/home'}>
+            <Link to={'/'}>
                 < img className={h.logo} width={136} height={124} src={logo} alt="logo" />
             </Link>
             <div className={h.search}>
