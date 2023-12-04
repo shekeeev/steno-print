@@ -18,11 +18,12 @@ import CatalogCard from './Pages/CatalogCard/CatalogCard'
 // import arrowBottom from '../../Assets/Images/arrowBottom.svg'
 // import three from '../../Assets/Images/three.png'
 import Home from './Home/Home';
+import NotFound from './Pages/NotFound/NotFound';
 const Main = () => {
     return (
         <main>
             <Routes>
-                <Route path='/home' element={<Home />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/catalog' element={<Catalog />} />
                 <Route path='/disain_oboi' element={<DisainOboi />} />
                 <Route path='/catalog_card' element={<CatalogCard />} />
@@ -33,8 +34,12 @@ const Main = () => {
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/blog_detal' element={<BlogDetal />} />
                 <Route path='/portfolio' element={<Portfolio />} />
+                <Route path='*' element={<NotFound />} />
             </Routes>
-            {/* <BlogDetal /> */}
+            {/* <CatalogCard /> */}
+            {/* <Blog /> */}
+            {/* <NotFound /> */}
+            {/* <Contacs /> */}
 
 
 
