@@ -1,0 +1,41 @@
+.body {
+    background: rgba(211, 229, 207, 0.40);
+    /* height: 305vh; */
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+
+}
+
+.blog {
+    padding-top: 60px;
+    margin-bottom: 120px;
+}
+
+.blog h2 {
+    color: #192040;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    /* h1 */
+    font-family: 'Gilroy', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 65px */
+}
+
+.display {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.display img {
+    margin-right: 100px;
+}
+
+.iiii {
+    margin-bottom: 120px;
+}

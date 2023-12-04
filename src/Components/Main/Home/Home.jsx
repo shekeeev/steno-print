@@ -1,5 +1,5 @@
 import React from 'react';
-import b from './Home.module.css'
+import o from './Home.module.css'
 import imageNain from '../../../Assets/Images/image 9.png'
 import imageTen from '../../../Assets/Images/image 10.png'
 import imageEleven from '../../../Assets/Images/image 11.png'
@@ -13,12 +13,13 @@ import frame from '../../../Assets/Images/Frame 235.png'
 import rec from '../../../Assets/Images/Rectangle 1.png'
 import white from '../../../Assets/Images/white.png'
 import offer from '../../../Assets/Images/offer.png'
+import { Link } from 'react-router-dom';
 const Home = () => {
     return (
-        <div className={b.home}>
-            <div className={b.bg_fone}>
-                <div className={b.container}>
-                    <div className={b.bg_fone_title}>
+        <div className={o.home}>
+            <div className={o.bg_fone}>
+                <div className={o.container}>
+                    <div className={o.bg_fone_title}>
                         <h1>Художественное оформление вертикальных поверхностей</h1>
                         <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
                         <button>Узнать подробнее</button>
@@ -27,36 +28,43 @@ const Home = () => {
             </div>
 
 
-            <section className={b.container}>
-                <div className={b.threeCard}>
-                    <div className={b.threeCardColumn}>
-                        <img src={imageNain} alt="" />
-                        <div >
-                            <h4>Дизайнерские обои</h4>
-                            <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+            <section className={o.container}>
+                <div className={o.threeCard}>
+                    <Link to={'/disain_oboi'}>
+                        <div className={o.threeCardColumn}>
+                            <img src={imageNain} alt="" />
+                            <div >
+                                <h4>Дизайнерские обои</h4>
+                                <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={b.threeCardColumn}>
-                        <img src={imageTen} alt="" />
-                        <div >
-                            <h4>Виниловые обои</h4>
-                            <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+                    </Link>
+                    <Link to={'/disain_oboi'}>
+                        <div className={o.threeCardColumn}>
+                            <img src={imageTen} alt="" />
+                            <div >
+                                <h4>Виниловые обои</h4>
+                                <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className={b.threeCardColumn}>
-                        <img src={imageEleven} alt="" />
-                        <div >
-                            <h4>Фирменные обои</h4>
-                            <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+                    </Link>
+                    <Link to={'/disain_oboi'}>
+                        <div className={o.threeCardColumn}>
+                            <img src={imageEleven} alt="" />
+                            <div >
+                                <h4>Фирменные обои</h4>
+                                <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div className={b.seo}>
-                    <p className={b.seoText}>SEO text</p>
+                    </Link>
 
-                    <div className={b.seoColumn}>
-                        <p className={b.seoColumnP}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для направлений развития.</p>
-                        <div className={b.arrowDiv}>
+                </div>
+                <div className={o.seo}>
+                    <p className={o.seoText}>SEO text</p>
+
+                    <div className={o.seoColumn}>
+                        <p className={o.seoColumnP}>Разнообразный и богатый опыт говорит нам, что внедрение современных методик представляет собой интересный эксперимент проверки кластеризации усилий. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для дальнейших направлений развития. Предварительные выводы неутешительны: базовый вектор развития создаёт предпосылки для направлений развития.</p>
+                        <div className={o.arrowDiv}>
                             <p>Показать больше</p>
                             <img src={arrowBottom} alt="" />
                         </div>
@@ -69,132 +77,138 @@ const Home = () => {
 
 
 
-            <section className={b.fourCard}>
-                <div className={b.container}>
-                    <div className={b.title}>
+            <section className={o.fourCard}>
+                <div className={o.container}>
+                    <div className={o.title}>
                         <h4>Подборки обоев</h4>
                         <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                     </div>
-                    <div className={b.fourCardColumn}>
-                        <div className={b.card}>
-                            <img src={three} alt="" />
-                            <h4>Дизайнерские обои</h4>
-                            <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
+                    <Link to={'/disain_oboi'}>
+                        <div className={o.fourCardColumn}>
+
+                            <div className={o.card}>
+                                <img src={three} alt="" />
+                                <h4>Дизайнерские обои</h4>
+                                <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
+                            </div>
+                            <div className={o.card}>
+                                <img src={three} alt="" />
+                                <h4>Дизайнерские обои</h4>
+                                <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
+                            </div>
+                            <div className={o.card}>
+                                <img src={three} alt="" />
+                                <h4>Дизайнерские обои</h4>
+                                <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
+                            </div>
+                            <div className={o.card}>
+                                <img src={three} alt="" />
+                                <h4>Дизайнерские обои</h4>
+                                <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
+                            </div>
                         </div>
-                        <div className={b.card}>
-                            <img src={three} alt="" />
-                            <h4>Дизайнерские обои</h4>
-                            <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
-                        </div>
-                        <div className={b.card}>
-                            <img src={three} alt="" />
-                            <h4>Дизайнерские обои</h4>
-                            <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
-                        </div>
-                        <div className={b.card}>
-                            <img src={three} alt="" />
-                            <h4>Дизайнерские обои</h4>
-                            <p>Используем различные технологии нанесения изображений. В нашем арсенале немецкое оборудование, Итальянские технологии холодного трансфера и другие бесшовные покрытия.</p>
-                        </div>
-                    </div>
+                    </Link>
+
                 </div>
 
             </section>
 
-            <section className={b.fourNew}>
-                <div className={b.container}>
+            <section className={o.fourNew}>
+                <div className={o.container}>
                     <h3>Новинки</h3>
-                    <div className={b.columnNew}>
-                        <div>
-                            <div className={b.oneNew}>
-                                <div className={b.twentyFive}><p>-25%</p></div>
-                                <div className={b.populyar}><p>Популярное</p></div>
-                                <div className={b.new}><p>Новинка</p></div>
+                    <Link to={'/catalog'}>
+                        <div className={o.columnNew}>
+                            <div>
+                                <div className={o.oneNew}>
+                                    <div className={o.twentyFive}><p>-25%</p></div>
+                                    <div className={o.populyar}><p>Популярное</p></div>
+                                    <div className={o.new}><p>Новинка</p></div>
+                                </div>
+                                <div className={o.oneNewBottom}>
+                                    <div className={o.florasion}>
+                                        <h4>Floraison</h4>
+                                        <p>от 2 552 ₽ / м2</p>
+                                    </div>
+                                    <div className={o.artikul}>
+                                        <h4>Артикул: 11039</h4>
+                                        <p>от 3 452 ₽ / м2 </p>
+                                    </div>
+
+
+                                </div>
                             </div>
-                            <div className={b.oneNewBottom}>
-                                <div className={b.florasion}>
-                                    <h4>Floraison</h4>
-                                    <p>от 2 552 ₽ / м2</p>
+                            <div>
+                                <div className={o.twoNew}>
+                                    {/* <div className={o.twentyFive}><p>-25%</p></div> */}
+                                    <div className={o.populyar}><p>Популярное</p></div>
+                                    <div className={o.new}><p>Новинка</p></div>
                                 </div>
-                                <div className={b.artikul}>
-                                    <h4>Артикул: 11039</h4>
-                                    <p>от 3 452 ₽ / м2 </p>
-                                </div>
+                                <div className={o.oneNewBottom}>
+                                    <div className={o.florasion}>
+                                        <h4>Floraison</h4>
+                                        <p>от 2 552 ₽ / м2</p>
+                                    </div>
+                                    <div className={o.artikul}>
+                                        <h4>Артикул: 11039</h4>
+                                        <p>от 3 452 ₽ / м2 </p>
+                                    </div>
 
 
+                                </div>
+                            </div>
+                            <div>
+                                <div className={o.threeNew}>
+                                    {/* <div className={o.twentyFive}><p>-25%</p></div>
+                                <div className={o.populyar}><p>Популярное</p></div>
+                                <div className={o.new}><p>Новинка</p></div> */}
+                                </div>
+                                <div className={o.oneNewBottom}>
+                                    <div className={o.florasion}>
+                                        <h4>Floraison</h4>
+                                        <p>от 2 552 ₽ / м2</p>
+                                    </div>
+                                    <div className={o.artikul}>
+                                        <h4>Артикул: 11039</h4>
+                                        <p>от 3 452 ₽ / м2 </p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div className={o.fourrNew}>
+                                    <div className={o.twentyFive}><p>-25%</p></div>
+                                    {/* <div className={o.populyar}><p>Популярное</p></div> */}
+                                    <div className={o.new}><p>Новинка</p></div>
+                                </div>
+                                <div className={o.oneNewBottom}>
+                                    <div className={o.florasion}>
+                                        <h4>Floraison</h4>
+                                        <p>от 2 552 ₽ / м2</p>
+                                    </div>
+                                    <div className={o.artikul}>
+                                        <h4>Артикул: 11039</h4>
+                                        <p>от 3 452 ₽ / м2 </p>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div className={b.twoNew}>
-                                {/* <div className={b.twentyFive}><p>-25%</p></div> */}
-                                <div className={b.populyar}><p>Популярное</p></div>
-                                <div className={b.new}><p>Новинка</p></div>
-                            </div>
-                            <div className={b.oneNewBottom}>
-                                <div className={b.florasion}>
-                                    <h4>Floraison</h4>
-                                    <p>от 2 552 ₽ / м2</p>
-                                </div>
-                                <div className={b.artikul}>
-                                    <h4>Артикул: 11039</h4>
-                                    <p>от 3 452 ₽ / м2 </p>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div>
-                            <div className={b.threeNew}>
-                                {/* <div className={b.twentyFive}><p>-25%</p></div>
-                                <div className={b.populyar}><p>Популярное</p></div>
-                                <div className={b.new}><p>Новинка</p></div> */}
-                            </div>
-                            <div className={b.oneNewBottom}>
-                                <div className={b.florasion}>
-                                    <h4>Floraison</h4>
-                                    <p>от 2 552 ₽ / м2</p>
-                                </div>
-                                <div className={b.artikul}>
-                                    <h4>Артикул: 11039</h4>
-                                    <p>от 3 452 ₽ / м2 </p>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div>
-                            <div className={b.fourrNew}>
-                                <div className={b.twentyFive}><p>-25%</p></div>
-                                {/* <div className={b.populyar}><p>Популярное</p></div> */}
-                                <div className={b.new}><p>Новинка</p></div>
-                            </div>
-                            <div className={b.oneNewBottom}>
-                                <div className={b.florasion}>
-                                    <h4>Floraison</h4>
-                                    <p>от 2 552 ₽ / м2</p>
-                                </div>
-                                <div className={b.artikul}>
-                                    <h4>Артикул: 11039</h4>
-                                    <p>от 3 452 ₽ / м2 </p>
-                                </div>
-
-
-                            </div>
-                        </div>
+                    </Link>
+                </div>
+            </section>
+            <section className={o.hack}>
+                <div className={o.container}>
+                    <div className={o.bg}>
+                        <input className={o.inp} type="text" placeholder='Ваше имя' />
+                        <input className={o.firstInp} type={'text'} placeholder='+(996)' />
                     </div>
                 </div>
             </section>
-            <section className={b.hack}>
-                <div className={b.container}>
-                    <div className={b.bg}>
-                        <input className={b.inp} type="text" placeholder='Ваше имя' />
-                        <input className={b.firstInp} type={'text'} placeholder='+(996)' />
-                    </div>
-                </div>
-            </section>
 
-            <section className={b.container}>
-                <div className={b.collectionP}>
+            <section className={o.container}>
+                <div className={o.collectionP}>
                     <h4>
                         Авторские коллекции
                     </h4>
@@ -202,17 +216,17 @@ const Home = () => {
                         С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.
                     </p>
                 </div>
-                <div className={b.columnKit}>
-                    <div className={b.kit}>
+                <div className={o.columnKit}>
+                    <div className={o.kit}>
                         <img src={imageKit} alt="kit" />
-                        <div className={b.kitDiv}>
+                        <div className={o.kitDiv}>
                             <h4>Жилые помещения</h4>
                             <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
                         </div>
                     </div>
-                    <div className={b.kit}>
+                    <div className={o.kit}>
                         <img src={imageDog} alt="kit" />
-                        <div className={b.kitDiv}>
+                        <div className={o.kitDiv}>
                             <h4>Офисы, рестораны, кафе</h4>
                             <p>Есть над чем задуматься: акционеры крупнейших компаний будут разоблачены.</p>
                         </div>
@@ -220,8 +234,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className={b.container}>
-                <div className={b.reviews}>
+            <section className={o.container}>
+                <div className={o.reviews}>
                     <h4>
                         Отзывы
                     </h4>
@@ -230,73 +244,73 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className={b.display}>
-                    <div className={b.fourFlex}>
+                <div className={o.display}>
+                    <div className={o.fourFlex}>
                         <div>
                             <img src={maria} alt="" />
-                            <div className={b.g}>
+                            <div className={o.g}>
                                 <img src={m} alt="" />
-                                <div className={b.maria}>
+                                <div className={o.maria}>
                                     <h4>Мария</h4>
                                     <p>г. Москва</p>
                                 </div>
                             </div>
 
-                            <div className={b.oneP}>
+                            <div className={o.oneP}>
                                 <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                             </div>
 
                         </div>
                     </div>
 
-                    <div className={b.fourFlex}>
+                    <div className={o.fourFlex}>
                         <div>
                             <img src={maria} alt="" />
-                            <div className={b.g}>
+                            <div className={o.g}>
                                 <img src={m} alt="" />
-                                <div className={b.maria}>
+                                <div className={o.maria}>
                                     <h4>Мария</h4>
                                     <p>г. Москва</p>
                                 </div>
                             </div>
 
-                            <div className={b.oneP}>
+                            <div className={o.oneP}>
                                 <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                             </div>
 
                         </div>
                     </div>
 
-                    <div className={b.fourFlex}>
+                    <div className={o.fourFlex}>
                         <div>
                             <img src={maria} alt="" />
-                            <div className={b.g}>
+                            <div className={o.g}>
                                 <img src={m} alt="" />
-                                <div className={b.maria}>
+                                <div className={o.maria}>
                                     <h4>Мария</h4>
                                     <p>г. Москва</p>
                                 </div>
                             </div>
 
-                            <div className={b.oneP}>
+                            <div className={o.oneP}>
                                 <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                             </div>
 
                         </div>
                     </div>
 
-                    <div className={b.fourFlex}>
+                    <div className={o.fourFlex}>
                         <div>
                             <img src={maria} alt="" />
-                            <div className={b.g}>
+                            <div className={o.g}>
                                 <img src={m} alt="" />
-                                <div className={b.maria}>
+                                <div className={o.maria}>
                                     <h4>Мария</h4>
                                     <p>г. Москва</p>
                                 </div>
                             </div>
 
-                            <div className={b.oneP}>
+                            <div className={o.oneP}>
                                 <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                             </div>
 
@@ -305,12 +319,12 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className={b.container}>
-                <div className={b.displayFlex}>
-                    <div className={b.imageTwentyNain}>
+            <section className={o.container}>
+                <div className={o.displayFlex}>
+                    <div className={o.imageTwentyNain}>
                         <img src={frame} alt="" />
                     </div>
-                    <div className={b.tehnic}>
+                    <div className={o.tehnic}>
                         <h4>
                             Мы используем разные техники оформления
                         </h4>
@@ -321,27 +335,27 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className={b.container}>
-                <div className={b.material}>
+            <section className={o.container}>
+                <div className={o.material}>
                     <h4>Материалы</h4>
                     <p>С помощью опыта нашей команды преобразить любые помещения не составит труда вне зависимости от масштаба или сложности задачи.</p>
                 </div>
 
-                <div className={b.rulon}>
-                    <div className={b.rulonP}>
+                <div className={o.rulon}>
+                    <div className={o.rulonP}>
                         <p>По рулонам</p>
                         <img src={rec} alt="" />
                     </div>
 
-                    <div className={b.rulonPP}>
+                    <div className={o.rulonPP}>
                         <p>Бесшовные</p>
                         <img src={rec} alt="" />
                     </div>
                 </div>
-                <div className={b.whiteColumn}>
-                    <div className={b.whiteFone}>
+                <div className={o.whiteColumn}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -350,9 +364,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className={b.whiteFone}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -361,9 +375,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className={b.whiteFone}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -372,9 +386,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className={b.whiteFone}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -383,9 +397,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className={b.whiteFone}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -394,9 +408,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className={b.whiteFone}>
+                    <div className={o.whiteFone}>
                         <img src={white} alt="" />
-                        <div className={b.scandi}>
+                        <div className={o.scandi}>
                             <h4>
                                 Scandi
                             </h4>
@@ -410,11 +424,11 @@ const Home = () => {
             </section>
 
 
-            <section className={b.container}>
-                <div className={b.marginBottom}>
+            <section className={o.container}>
+                <div className={o.marginBottom}>
                     <img src={offer} alt="" />
-                    {/* <input className={b.offerInp} type="text" placeholder='Ваше имя' />
-                    <input className={b.offerInpSecond} type={'text'} placeholder='+(996)' /> */}
+                    {/* <input className={o.offerInp} type="text" placeholder='Ваше имя' />
+                    <input className={o.offerInpSecond} type={'text'} placeholder='+(996)' /> */}
                 </div>
             </section>
         </div>
