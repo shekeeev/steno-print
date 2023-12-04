@@ -1,0 +1,271 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.bg {
+    background: url(../../../../Assets/Janyl/bg.png) center / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/* НАЗВАНИЕ СЕКЦИИ */
+
+.container {
+    width: 74.48%;
+    margin: 0 auto;
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    width: 56.23%;
+    /* height: 175px; */
+    margin: 80px 0 0 0;
+}
+
+.titleTopLine {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titleBlock p {
+    color: #828299;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 19px;
+}
+
+.title {
+    color: #192040;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #828299;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    width: 1000px;
+}
+
+/* СОЗДАЕМ КРАСИВЫЕ СТЕНЫ, ИЗОБРАЖЕНИЕ, ОПИСАНИЕ */
+
+.createSweetWalls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.subtitle {
+    color: #192040;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.textBlock p {
+    color: #192040;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 17px;
+    line-height: 140%;
+}
+
+/* КАРТОЧКИ С ИЗОБРАЖЕНИЯМИ */
+
+.cardsBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.card {
+    background-color: white;
+    flex: 0 1 24.5%;
+    width: 100%;
+    height: 380px;
+    border-radius: 30px;
+    border: 2px #424244;
+    padding: 40px;
+}
+
+.card img {
+    border-radius: 50%;
+    margin: 0 0 50px 0;
+}
+
+.cardDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardSubtitle {
+    color: #192040;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.card p {
+    color: #828299;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+.infoBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+/* СТИЛИЗАЦИЯ КАРТИНОК */
+
+.videoCard {
+    background: url(../../../../Assets/Janyl/wallpen_machine.png);
+    width: 710px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.images img {
+    width: 705px;
+    height: 390px;
+    padding: 0 10px 10px 0;
+}
+
+/* application */
+
+.application {
+    background-color: #FFFEFC;
+    width: 100%;
+    height: 467px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.greyVector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.orangeVector {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.animals {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 40px;
+}
+
+.application {
+    padding-bottom: 120px;
+}
+
+.application .textBlock {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+
+.application .textBlock p {
+    color: var(--txt2, #828299);
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+
+.inputs h4 {
+    color: #828299;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.inputs input {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #EDEDF2;
+    background: var #FFFEFC;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 20px 25px;
+    gap: 10px;
+    color: #828299;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    margin-right: 10px;
+}
+
+.inputs {
+    margin: 50px 0;
+}
+
+.sendReq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reqBtn {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FA052E;
+    color: #FFF;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    width: 50%;
+    margin: 0 30px 0 0;
+}
+
+.reqBtn :hover {
+    box-shadow: 0px 15px 20px -15px #FF0D35;
+}
+
+.sendReq p {
+    color: var(--txt2, #828299);
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 13px;
+    line-height: 140%;
+}
