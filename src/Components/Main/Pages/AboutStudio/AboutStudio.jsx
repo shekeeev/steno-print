@@ -190,7 +190,7 @@ const AboutStudio = () => {
 
                                 <div className={s.numberInput}>
                                     <h4>Номер телефона:</h4>
-                                    <input type='number' id="numberInputField" placeholder='+7 (___) ___-__-__' />
+                                    <input type='text' id="numberInputField" placeholder='+7 (___) ___-__-__' />
                                 </div>
                             </div>
 
