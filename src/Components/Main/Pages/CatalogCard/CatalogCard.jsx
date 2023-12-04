@@ -1,4 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
+
+const CatalogCard = () => {
+    return (
+        <div></div>
+=======
 import cc from './CaralogCard.module.css'
 import home from '../../../../Assets/Images/home.svg'
 import imageTwelwe from '../../../../Assets/Images/imageTwelwe.png'
@@ -304,6 +310,7 @@ const CatalogCard = () => {
 
             </div>
         </div>
+>>>>>>> ba4a54350213236f755592ea84df4dcdf780318a
     );
 };
 

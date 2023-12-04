@@ -1,0 +1,217 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+.CatalogSection {
+    height: 340vh;
+    background-color: #D3E5CF66;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.Catalog_title {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.Catalog_title h2 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #192040;
+    font-size: 45px;
+    font-weight: 600
+}
+
+.Catalog_title_item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Catalog_title_item p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    color: #828299;
+    font-weight: 200;
+}
+
+
+
+.Catalog_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Catalog_box_card {
+    flex: 0 1 33%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.cardTitle {
+    margin-right: 45px;
+    border: 2px solid #FFFFFF
+}
+
+.cardTitle h3 {
+    color: #192040;
+    font-size: 20px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.cardTitle button {
+    text-align: center;
+    color: #fff;
+    background-color: #FF2E51;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* ================== */
+
+.CatalogContent_select {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+select {
+    /* width: 25%; */
+    height: 55px;
+    border-radius: 30px;
+    padding: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    color: #828299;
+    font-weight: 200;
+}
+
+.content_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_left {
+    text-align: center;
+    color: #fff;
+    width: 160px;
+    height: 55px;
+    background-color: #FF2E51;
+    border-radius: 40px;
+}
+
+.btn_right {
+    text-align: center;
+    width: 160px;
+    color: #192040;
+    height: 55px;
+    background-color: #e3e3e8;
+}
+
+/* ============ */
+
+.CatalogContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.CatalogContent_card {
+    flex: 0 1 73%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.cardItem {
+    flex: 0 1 33%;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 40px;
+}
+
+.cardItem img {
+    width: 100%;
+}
+
+.cardItemTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardItem_left {
+    padding: 25px;
+    line-height: 30px;
+}
+
+.cardItem_left h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    color: #192040;
+    font-weight: 200;
+}
+
+.cardItem_left h4 {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    color: #828299;
+}
+
+.cardItem_rigth {
+    padding: 25px;
+    line-height: 30px;
+}
+
+.cardItem_rigth h5 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 20px;
+    color: #192040;
+    font-weight: 200;
+}
+
+.cardItem_rigth p {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 14px;
+    color: #828299;
+    text-decoration-line: line-through;
+    margin-left: 24px;
+
+}
+
+
+
+.brushIcon {
+    width: 64px;
+    height: 64px;
+    background-color: #FF2E51;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: 856px;
+    left: 60px;
+}
+
+
+
+
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
