@@ -32,11 +32,6 @@
 
 /* Виды обоев */
 
-.images .wallpapers:hover {
-    background: #EDEEF299 , cover;
-}
-
-
 .counts {
     display: flex;
     justify-content: center;

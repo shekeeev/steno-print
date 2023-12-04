@@ -42,6 +42,11 @@
     background: var(--bg2, #FFFEFC);
 }
 
+.inp input {
+    border: 0;
+    margin-top: 0;
+}
+
 .select {
     display: flex;
     /* padding:; */
