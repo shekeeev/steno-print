@@ -1,5 +1,4 @@
 import React from 'react';
-import b from './Main.module.css'
 import { Route, Routes } from 'react-router-dom';
 import AboutStudio from './Pages/AboutStudio/AboutStudio'
 // import Home from './Main'
@@ -35,7 +34,7 @@ const Main = () => {
                 <Route path='/blog_detal' element={<BlogDetal />} />
                 <Route path='/portfolio' element={<Portfolio />} />
             </Routes>
-
+            {/* <BlogDetal /> */}
 
 
 
